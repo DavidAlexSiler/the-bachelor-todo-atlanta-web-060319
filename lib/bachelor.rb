@@ -9,8 +9,8 @@ def get_first_name_of_season_winner(data, season)
         if info['status'] == 'Winner'
           winner = info['status']
         end
-      end
         winner['name']
+      end
     end
   end
 end

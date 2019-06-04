@@ -9,10 +9,10 @@ def get_first_name_of_season_winner(data, season)
         if info['status'] == 'Winner'
           winner = info['status']['name']
         end
-        winner
       end
     end
   end
+        winner
 end
 
 def get_contestant_name(data, occupation)

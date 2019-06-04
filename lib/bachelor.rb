@@ -9,8 +9,8 @@ def get_first_name_of_season_winner(data, season)
         if info['status'] == 'Winner'
           winner = info['status']['name']
         end
-          binding.pry
       end
+          binding.pry
         winner
     end
   end

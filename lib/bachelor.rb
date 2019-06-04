@@ -10,8 +10,8 @@ def get_first_name_of_season_winner(data, season)
           winner = info['status']['name']
         end
       end
-    end
         winner
+    end
   end
 end
 
